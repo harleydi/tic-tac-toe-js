@@ -11,26 +11,46 @@
 <body>
   <header>
     <h1 class="head">TIC TAC TOE</h1>
+    <div class="btn-container">
+      <button id="reset">Reset</button>
+    </div>
   </header>
   
+  <div id="banner">
+    <p id="bannerText">
+      
+    </p>
+  </div>
+
+  <div class="player-scores">
+    <div class="player1-score">
+      <h3>PLAYER 1</h3>
+      <p id="player1-score-holder"></p>
+    </div>
+    <div class="player2-score">
+      <h3>PLAYER 2</h3>
+      <p id="player2-score-holder"></p>
+    </div>
+  </div>
   
   <table id="board">
     <tr>
-      <td class="td1 td4"></td>
-      <td class="td1"></td>
-      <td class="td1 td2"></td>
+      <td id="box-1" class="td1 td4 allBoxes"></td>
+      <td id="box-2" class="td1 allBoxes"></td>
+      <td id="box-3" class="td1 td2 allBoxes"></td>
     </tr>
     <tr>
-      <td class="td4"></td>
-      <td></td>
-      <td class="td2"></td>
+      <td id="box-4" class="td4 allBoxes"></td>
+      <td id="box-5" class="allBoxes"></td>
+      <td id="box-6" class="td2 allBoxes"></td>
     </tr>
     <tr>
-      <td class="td3 td4"></td>
-      <td class="td3"></td>
-      <td class="td3 td2"></td>
+      <td id="box-7" class="td3 td4 allBoxes"></td>
+      <td id="box-8" class="td3 allBoxes"></td>
+      <td id="box-9" class="td3 td2 allBoxes"></td>
     </tr>
   </table>
 
+  
 </body>
 </html>
